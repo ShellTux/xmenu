@@ -1,10 +1,12 @@
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "monospace:size=9,DejaVuSansMono:size=9",
+	.font = "FiraCode Nerd Font:size=14,"
+		"monospace:size=14,"
+		"DejaVuSansMono:size=14",
 
 	/* colors */
-	.background_color = "#FFFFFF",
-	.foreground_color = "#2E3436",
+	.background_color = "#2E3436",
+	.foreground_color = "#FFFFFF",
 	.selbackground_color = "#3584E4",
 	.selforeground_color = "#FFFFFF",
 	.separator_color = "#CDC7C2",
